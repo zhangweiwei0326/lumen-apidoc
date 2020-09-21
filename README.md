@@ -13,8 +13,8 @@ composer require weiwei/lumen-apidoc
 ```
 #### 3、复制前端资源文件及配置文件
 ```bash
-   1.复制插件目录下面的lumen-apidoc\gassets里面到public/apidoc文件下
-   2.复制插件目录下面的lumen-apidoc\src\config\doc.php里面到config\doc.php,没有config目录自己创建一个
+   1.复制插件目录下面的lumen-apidoc\assets里面的文件到public/apidoc文件下
+   2.复制插件目录下面的lumen-apidoc\src\config\doc.php文件到config\doc.php,没有config目录自己创建一个
 ```
 #### 4、在config/doc.php文件中，配置需要生成文档的接口类
 ```php
